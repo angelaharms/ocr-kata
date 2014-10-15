@@ -4,7 +4,10 @@
             [compojure.route :as route]))
 
 (defroutes app-routes
-  (GET "/" [] "Hello World")
+  (GET "/" [name] 
+    (cond 
+      (nil? name) "Put your name in the url, like, you know, ?name=Lola"
+      :else (str "Hello, " name)))
   (route/resources "/")
   (route/not-found "Not Found"))
 

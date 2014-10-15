@@ -6,6 +6,6 @@
                  [compojure "1.1.9"]]
   :plugins [[lein-ring "0.8.12"]]
   :ring {:handler ocr-kata.handler/app}
-  :profiles
-  {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
-                        [ring-mock "0.1.5"]]}})
+  :profiles {:uberjar {:aot :all}
+             :dev {:dependencies [[javax.servlet/servlet-api "2.5"]
+                                  [ring-mock "0.1.5"]]}})
