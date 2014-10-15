@@ -2,7 +2,7 @@
 
 This is a toy. It will gradually do things as I learn things. 
 
-It started with Clojure Template, https://github.com/weavejester/compojure-template
+It started with compojure-template, https://github.com/weavejester/compojure-template
 
 --Angela
 
