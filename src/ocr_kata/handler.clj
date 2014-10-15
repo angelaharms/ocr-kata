@@ -6,7 +6,7 @@
 (defroutes app-routes
   (GET "/" [name] 
     (cond 
-      (nil? name) "Put your name in the url, like, you know, ?name=Lola"
+      (nil? name) "Put your name in the url, like, you know, /?name=Lola"
       :else (str "Hello, " name)))
   (route/resources "/")
   (route/not-found "Not Found"))
