@@ -1,19 +1,15 @@
 # ocr-kata
 
-FIXME
+This is a toy. It will gradually do things as I learn things. 
 
-## Prerequisites
+It started with Clojure Template, https://github.com/weavejester/compojure-template
 
-You will need [Leiningen][1] 1.7.0 or above installed.
+--Angela
 
-[1]: https://github.com/technomancy/leiningen
-
-## Running
-
-To start a web server for the application, run:
-
-    lein ring server
 
 ## License
 
-Copyright © 2014 FIXME
+Copyright © 2014 Angela Harms
+
+October 2014, note to future people: 
+I share. Too lazy to find the right license, so if there's something you need here, talk to me.
